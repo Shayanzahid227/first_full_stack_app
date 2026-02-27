@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:girl_clan/UI/auth/login/login.dart';
 import 'package:girl_clan/UI/auth/sign_up/sign_up.dart';
 import 'package:girl_clan/UI/profile/profile_screen.dart';
+import 'package:girl_clan/UI/rough/counter.dart';
 import 'package:girl_clan/core/constants/colors.dart';
 import 'package:girl_clan/firebase_options.dart';
 
@@ -51,7 +52,7 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           defaultTransition: Transition.leftToRight,
-          home: SignUpScreen(),
+          home: counterScreen(),
         );
       },
     );
