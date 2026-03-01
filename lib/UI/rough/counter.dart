@@ -23,7 +23,7 @@ class counterScreen extends StatelessWidget {
               body: Center(child: Text(model.counter.toString())),
             ),
       ),
-    );
+    );//
   }
 }
 
